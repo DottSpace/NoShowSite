@@ -1,0 +1,89 @@
+/* Impostazioni base */
+body {
+    margin: 0;
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color: #1d1d1d;
+    color: #f0f0f0;
+    text-align: center;
+}
+.site-icon {
+    top: -45px; /* Alza l'icona rispetto alla sua posizione normale */
+    width: 250px; /* Imposta la dimensione dell'icona */
+    height: 125px;
+    vertical-align: middle; /* Allinea l'icona verticalmente con i link */
+    margin-right: 25px; /* Spazio tra l'icona e il testo */
+    position: relative; /* Posizionamento relativo */
+    margin-left: -800px; /* Sposta l'icona verso sinistra */
+}
+
+/* Navigazione */
+nav {
+    background-color: #282828;
+    padding: 15px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Contenuto principale */
+.container {
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 120px;
+    color: #ff6600;
+    margin: 0;
+}
+
+.message {
+    font-size: 24px;
+    color: #f0f0f0;
+    margin: 20px 0;
+}
+
+.home-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #ff4500;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #282828;
+    color: #aaa;
+    font-size: 14px;
+}
